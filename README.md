@@ -1,3 +1,7 @@
+## Main contributors for this code
+
+Jae-woong Lee and Seongmin Park (https://github.com/psm1206)
+
 ## Preliminaries
 
 Set up your user Python environment as follows:
