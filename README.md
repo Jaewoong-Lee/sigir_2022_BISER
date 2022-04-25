@@ -1,8 +1,8 @@
-## Main contributors for this code
+# Main contributors for this code
 
 Jae-woong Lee and Seongmin Park (https://github.com/psm1206)
 
-## Preliminaries
+# Preliminaries
 
 Set up your user Python environment as follows:
 
@@ -18,7 +18,7 @@ mlflow==1.4.0
 pyyaml==5.1
 
 
-## How to run
+# How to run
 1. Set a model's hyperparameters you want in ```main.py```. The adjustable hyperparameters are as follows.
     - model name {mf, relmf, uae, iae, proposed}
     - dataset {coat, yahoo}
@@ -37,48 +37,48 @@ pyyaml==5.1
 3. You can see the results in the './log' folder.
 
 
-## Example to run in Coat dataset
-# MF
+# Example to run in Coat dataset
+## MF
 python main.py -m mf --dataset coat -lr 0.005 -reg 1e-9 -hidden 128 --batch_size 1024 -ran 10
 
-# RelMF
+## RelMF
 python main.py -m relmf --dataset coat -lr 0.005 -reg 1e-5 -hidden 128 --batch_size 1024 -ran 10
 
-# UAE
+## UAE
 python main.py -m uae --dataset coat -lr 0.1 -reg 1e-6 -hidden 50 --batch_size 1 -ran 10
 
-# IAE
+## IAE
 python main.py -m iae --dataset coat -lr 0.2 -reg 1e-7 -hidden 50 --batch_size 1 -ran 10
 
-# CJMF
+## CJMF
 python main.py -m cjmf --dataset coat -lr 0.005 -reg 1e-9 -hidden 128 --batch_size 1024 -ran 10
 
-# MACR
+## MACR
 python main.py -m macr --dataset coat -lr 0.01 -reg 1e-5 -hidden 64 --batch_size 2048 -ran 10
 
-# BISER
+## BISER
 python main.py -m proposed --dataset coat -ran 10
 
 
-## Example to run in Yahoo! R3 dataset
-# MF
+# Example to run in Yahoo! R3 dataset
+## MF
 python main.py -m mf --dataset yahoo -lr 0.001 -reg 1e-7 -hidden 64 --batch_size 1024 -ran 5
 
-# RelMF
+## RelMF
 python main.py -m relmf --dataset yahoo -lr 0.001 -reg 1e-7 -hidden 64 --batch_size 1024 -ran 5
 
-# UAE
+## UAE
 python main.py -m uae --dataset yahoo -lr 0.01 -reg 0.0 -hidden 200 --batch_size 1 -ran 5
 
-# IAE
+## IAE
 python main.py -m iae --dataset yahoo -lr 0.05 -reg 0.0 -hidden 200 --batch_size 1 -ran 5
 
-# CJMF
+## CJMF
 python main.py -m cjmf --dataset yahoo -lr 0.001 -reg 1e-6 -hidden 64 --batch_size 1024 -ran 5
 
-# MACR
+## MACR
 python main.py -m macr --dataset yahoo -lr 0.001 -reg 1e-7 -hidden 64 --batch_size 8192 -ran 5
 
-# BISER
+## BISER
 python main.py -m proposed --dataset yahoo -ran 5
 
