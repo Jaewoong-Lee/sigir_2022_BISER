@@ -6,7 +6,7 @@ Jae-woong Lee and Seongmin Park (https://github.com/psm1206)
 
 Set up your user Python environment as follows:
 
-Python==3.7.7
+python==3.7.7
 tqdm
 joblib
 bottleneck
