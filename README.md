@@ -2,6 +2,16 @@
 
 Jae-woong Lee and Seongmin Park (https://github.com/psm1206)
 
+
+# About this code and datasets
+We modified the code below.
+https://github.com/usaito/unbiased-implicit-rec-real
+
+We referred to the code below.
+RelMF: https://github.com/usaito/unbiased-implicit-rec-real
+CJMF: https://github.com/Zziwei/Unbiased-Propensity-and-Recommendation/blob/master/CJMF.py
+MACR: https://github.com/weitianxin/MACR/tree/main/macr_lightgcn
+
 # Preliminaries
 
 Set up your user Python environment as follows:
