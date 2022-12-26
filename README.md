@@ -1,4 +1,4 @@
-Implementation of the paper "Bilateral Self-unbiased Learning from Biased Implicit Feedback" in SIGIR2022
+This code is the implementation of the paper "Bilateral Self-unbiased Learning from Biased Implicit Feedback" in SIGIR2022
 (https://dl.acm.org/doi/abs/10.1145/3477495.3531946)
 
 # Main contributors for this code
